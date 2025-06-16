@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Result</title>
+</head>
+<body>
+    <h1>Landing Result</h1>
+    <p><strong>Background:</strong> {{ data.get_background_display }}</p>
+    <p><strong>Title:</strong> {{ data.title }}</p>
+    <p><strong>Description:</strong> {{ data.description }}</p>
+    <p><strong>Logo:</strong></p>
+    <img src="{{ data.logo.url }}" alt="Logo" style="max-width: 200px;">
+</body>
+</html>
